@@ -73,5 +73,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# python train.py --resume D:\Research\LowLight\Diffusion-Low-Light\ckpt\model_latest.pth.tar --image_folder results/500_eps_bs12
