@@ -8,8 +8,8 @@
 
 ### NEWS 
 - Trained weights will be uploaded soon.
-- Proposed TriFuse model code is updated.
-- Dataset is uploaded online.
+- The proposed TriFuse model code is updated.
+- The dataset is uploaded online.
   
 ----------
 ### Dataset Download
@@ -17,10 +17,15 @@
 2. **Google Drive:** https://drive.google.com/file/d/1xfATFqrYvMU5a4eLJ5iMi7PVts1x3mmi/view?usp=sharing
 
 ----------
+### Pre-trained Weight Download
+1. **Kaggle:** https://www.kaggle.com/models/tanvirnwu/trifuse
+
+----------
 ### LoLI-Street Dataset
 ![](./assets/Loli-street.jpg)
 ## Proposed: TriFuse
 ![](./assets/ProposedModel.jpg)
+
 
 ### Dependencies
 ```
