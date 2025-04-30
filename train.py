@@ -21,7 +21,7 @@ def parse_args_and_config():
                         help='Path for checkpoint to load and resume')
     parser.add_argument("--sampling_timesteps", type=int, default=10,
                         help="Number of implicit sampling steps for validation image patches")
-    parser.add_argument("--image_folder", default='results/EXP22/', type=str,
+    parser.add_argument("--image_folder", default='run/EXP1/', type=str,
                         help="Location to save restored validation image patches")
     parser.add_argument('--seed', default=230, type=int, metavar='N',
                         help='Seed for initializing training (default: 230)')

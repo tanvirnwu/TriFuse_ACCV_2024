@@ -16,11 +16,11 @@ def parse_args_and_config():
     parser = argparse.ArgumentParser(description='Evaluate Wavelet-Based Diffusion Model')
     parser.add_argument("--config", default='options.yml', type=str,
                         help="Path to the config file")
-    parser.add_argument('--resume', default=r'D:\Research\LowLight\Diffusion-Low-Light\ckpt\model_latest.pth.tar', type=str,
+    parser.add_argument('--resume', default=r'ckpt/model_latest.pth.tar', type=str,
                         help='Path for the diffusion model checkpoint to load for evaluation')
     parser.add_argument("--sampling_timesteps", type=int, default=10,
                         help="Number of implicit sampling steps")
-    parser.add_argument("--image_folder", default=r'D:\Research\LowLight\Diffusion-Low-Light\output\val_set', type=str,
+    parser.add_argument("--image_folder", default=r'output/Inference1/', type=str,
                         help="Location to save restored images")
     parser.add_argument('--seed', default=230, type=int, metavar='N',
                         help='Seed for initializing training (default: 230)')
